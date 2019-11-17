@@ -1,0 +1,27 @@
+{
+  "name": "@rawewhat/quera",
+  "version": "0.0.1",
+  "description": "QueRa is a simplified Firestore and GraphQL client built purely in React hooks.",
+  "main": "index.js",
+  "repository": "github:rawewhat/quera",
+  "author": "Cheng Sokdara",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src -o index.js",
+    "watch": "babel src -w -o index.js",
+    "reset": "rm -rf node_modules yarn.lock && yarn"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-react": "^7.7.0",
+    "prettier": "^1.19.1"
+  },
+  "browserslist": [
+    "last 1 Chrome version"
+  ],
+  "peerDependencies": {},
+  "private": false,
+  "dependencies": {}
+}

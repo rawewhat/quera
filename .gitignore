@@ -1,0 +1,8 @@
+node_modules/
+.env
+yarn-error.log
+demo/node_modules
+demo/.cache
+demo/dist
+demo/.env
+demo/yarn-error.log
